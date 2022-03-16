@@ -31,7 +31,7 @@ else
 fi
 
 name=$(basename $PWD)
-sample=${1:-main_for_video}
+sample=${1:-main}
 
 if [[ "$CXX"  == *"sysroot"* ]];then
 $CXX -O3 -fno-inline -I. \
