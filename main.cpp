@@ -236,7 +236,7 @@ static void show_video( vector<std::string> &video_name,
 	    cv::Point origin;
             origin.x = out.cols / 2 - 60;
 	    origin.y = out.rows - 30;
-            cv::putText(out, text, origin, font_face, font_scale, cv::Scalar(0, 0, 255));
+            cv::putText(out, text, origin, font_face, font_scale, cv::Scalar(0, 255, 255));
             
 	    cv::imshow(video_name[i], out);
             if( cv::waitKey(5) == 27 ) {
