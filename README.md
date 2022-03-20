@@ -63,3 +63,6 @@ $ ./{FOLDER_NAME} dpu_HarDMSEG.xmodel {VIDEO_PATH1} {VIDEO_PATH2} {VIDEO_PATH3} 
 * Use only one CPU : Intel® Core™ i7-3770
 ![](https://i.imgur.com/xyQadI6.png)
 
+## Demo video
+
+https://www.youtube.com/watch?v=YRuRyRNlGx0
