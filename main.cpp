@@ -245,8 +245,8 @@ static void show_video( vector<std::string> &video_name,
 		    is_processing[k] = false;
                     is_showing[k] = false;
 		    is_running = false;
-		    std::cout << "video[" <<i<< "]: "<<video_name[i]<<" is interrupted!" <<std::endl;
-		    cv::destroyWindow(video_name[i]);
+		    std::cout << "video[" <<k<< "]: "<<video_name[k]<<" is interrupted!" <<std::endl;
+		    cv::destroyWindow(video_name[k]);
 		}
 	    }
         }
